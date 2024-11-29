@@ -40,6 +40,7 @@ export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): a
 
     switch (filter){
         case 'all':return affairs
+        //
         case 'low': return affairs.filter((item)=> item.priority === 'low')
         case 'high': return affairs.filter((item)=> item.priority === 'high')
         case 'middle': return affairs.filter((item)=> item.priority === 'middle')
