@@ -75,6 +75,7 @@ function Affairs(props: AffairsPropsType) {
             </div>
             <div className={s.affairs}>{mappedAffairs}</div>
         </div>
+        //
     )
 }
 
